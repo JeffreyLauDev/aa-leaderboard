@@ -9,14 +9,14 @@ on:
       - "fetch_leaderboard.py"
       - "pick_free_models.py"
       - "to_csv.py"
-      - ".github/workflows/weekly.yml"
+      - ".github/workflows/daily.yml"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: weekly-leaderboard
+  group: daily-leaderboard
   cancel-in-progress: true
 
 jobs:

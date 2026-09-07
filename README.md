@@ -32,7 +32,7 @@ python3 pick_free_models.py --max-price 0.5 --top 50 --min-intelligence 30
 
 ## Daily automation
 
-`.github/workflows/weekly.yml` runs every day at 03:00 UTC (and on every push to `main` touching the scripts):
+`.github/workflows/daily.yml` runs every day at 03:00 UTC (and on every push to `main` touching the scripts):
 
 1. `fetch_leaderboard.py` — pull fresh data
 2. `pick_free_models.py` — rank free models
