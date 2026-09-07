@@ -1,0 +1,57 @@
+name: weekly
+
+on:
+  schedule:
+    - cron: "0 3 * * 1" # Monday 03:00 UTC
+  push:
+    branches: [main]
+    paths:
+      - "fetch_leaderboard.py"
+      - "pick_free_models.py"
+      - "to_csv.py"
+      - ".github/workflows/weekly.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-leaderboard
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch leaderboard
+        run: |
+          python3 fetch_leaderboard.py
+          python3 -c "
+          import json, sys
+          d = json.load(open('data/leaderboard.json'))
+          assert d['modelCount'] > 100, 'suspiciously few models — payload shape changed?'
+          "
+
+      - name: Pick free models + CSV
+        run: |
+          python3 pick_free_models.py --max-price 0.001 --top 30
+          python3 to_csv.py
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "leaderboard-bot"
+          git config user.email "actions@github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "data: refresh leaderboard $(date -u +%F)"
+            git push
+          fi
