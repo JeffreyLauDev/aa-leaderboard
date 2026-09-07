@@ -1,8 +1,8 @@
 # aa-leaderboard
 
-Weekly pipeline that scrapes the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/leaderboards/models) — all ~640 models with full metrics (Intelligence Index breakdown, benchmark scores, pricing, speed percentiles) — and picks out the **free models**, ranked by intelligence.
+Daily pipeline that scrapes the [Artificial Analysis LLM Leaderboard](https://artificialanalysis.ai/leaderboards/models) — all ~640 models with full metrics (Intelligence Index breakdown, benchmark scores, pricing, speed percentiles) — and picks out the **free models**, ranked by intelligence.
 
-Data lands in `data/` every week via GitHub Actions. No browser, no API key, no scraping infra — just one HTTP GET with an `RSC: 1` header that returns the page's React Server Component payload containing the whole table as JSON.
+Data lands in `data/` every day via GitHub Actions. No browser, no API key, no scraping infra — just one HTTP GET with an `RSC: 1` header that returns the page's React Server Component payload containing the whole table as JSON.
 
 ## Outputs
 
@@ -30,9 +30,9 @@ python3 pick_free_models.py --max-price 0
 python3 pick_free_models.py --max-price 0.5 --top 50 --min-intelligence 30
 ```
 
-## Weekly automation
+## Daily automation
 
-`.github/workflows/weekly.yml` runs every Monday 03:00 UTC (and on every push to `main` touching the scripts):
+`.github/workflows/weekly.yml` runs every day at 03:00 UTC (and on every push to `main` touching the scripts):
 
 1. `fetch_leaderboard.py` — pull fresh data
 2. `pick_free_models.py` — rank free models
