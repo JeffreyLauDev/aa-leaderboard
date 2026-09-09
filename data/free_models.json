@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-08T07:50:29.053329+00:00",
+ "generatedAt": "2026-09-09T07:53:08.037475+00:00",
  "count": 16,
  "models": [
   {
@@ -30,8 +30,6 @@
    "omniscience": 3.76666666666667,
    "omniscienceAccuracy": 0.14866666666666667,
    "omniscienceNonHallucination": 0.8696162881754111,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": null,
    "hle": 0.174698795180723,
    "gpqa": 0.805050505050505,
@@ -51,20 +49,7 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": null,
-   "medianTimeToFirstTokenSeconds": null,
-   "medianTimeToFirstAnswerTokenSeconds": null,
-   "medianEndToEndResponseTimeSeconds": null,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": null,
-   "percentile05OutputTokensPerSecond": null,
-   "percentile95OutputTokensPerSecond": null,
-   "quartile25OutputTokensPerSecond": null,
-   "quartile75OutputTokensPerSecond": null,
-   "percentile05TimeToFirstTokenSeconds": null,
-   "percentile95TimeToFirstTokenSeconds": null,
-   "quartile25TimeToFirstTokenSeconds": null,
-   "quartile75TimeToFirstTokenSeconds": null,
    "contextWindowTokens": 131072,
    "totalParameters": 39,
    "sizeClass": "small",
@@ -84,16 +69,6 @@
    "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
    "huggingfaceUrl": "https://huggingface.co/ai9stars/G9v3-39A5B",
    "openrouterApiId": null,
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
-   "trainingTokensTrillions": null,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 675072,
@@ -113,7 +88,6 @@
      "reasoningTokens": 2578043,
      "outputTokens": 2631646
     },
-    "tau2": null,
     "tauBanking": {
      "inputTokens": 77441697,
      "answerTokens": 215292,
@@ -132,28 +106,24 @@
      "reasoningTokens": 6603278,
      "outputTokens": 13094460
     },
-    "ifbench": null,
     "scicode": {
      "inputTokens": 829043,
      "answerTokens": 182617,
      "reasoningTokens": 1284513,
      "outputTokens": 1467130
     },
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 768539,
      "answerTokens": 320989,
      "reasoningTokens": 7698636,
      "outputTokens": 8019625
     },
-    "terminalbenchHard": null,
     "terminalbenchV21": {
      "inputTokens": 209129493,
      "answerTokens": 1608201,
      "reasoningTokens": 1769438,
      "outputTokens": 3377639
-    },
-    "terminalbenchV40": null
+    }
    },
    "gdpvalBreakdown": {
     "elo": 1188.86,
@@ -199,7 +169,6 @@
      "hallucinationRate": 0.18926174496644296
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 3,
@@ -244,8 +213,6 @@
    "omniscience": -47.9333333333333,
    "omniscienceAccuracy": 0.20033333333333334,
    "omniscienceNonHallucination": 0.1500625260525219,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": 0.75578231292517,
    "hle": 0.236329935125116,
    "gpqa": 0.856565656565657,
@@ -265,20 +232,20 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": 35.4510487531384,
-   "medianTimeToFirstTokenSeconds": 1.06905183499998,
-   "medianTimeToFirstAnswerTokenSeconds": 50.037983955698266,
-   "medianEndToEndResponseTimeSeconds": 64.14193905958602,
-   "medianReasoningTimeSeconds": 48.968932120698284,
-   "medianCanonicalAnswerOutputSpeed": 36.4969132837334,
-   "percentile05OutputTokensPerSecond": 33.239647657435,
-   "percentile95OutputTokensPerSecond": 37.0753516155546,
-   "quartile25OutputTokensPerSecond": 34.8387701219912,
-   "quartile75OutputTokensPerSecond": 36.0743577623992,
-   "percentile05TimeToFirstTokenSeconds": 0.959091123000007,
-   "percentile95TimeToFirstTokenSeconds": 1.59604850699998,
-   "quartile25TimeToFirstTokenSeconds": 0.973195584999985,
-   "quartile75TimeToFirstTokenSeconds": 1.10809809099999,
+   "medianOutputTokensPerSecond": 35.281457248126,
+   "medianTimeToFirstTokenSeconds": 1.10809809099999,
+   "medianTimeToFirstAnswerTokenSeconds": 50.312414902268,
+   "medianEndToEndResponseTimeSeconds": 64.48416513592815,
+   "medianReasoningTimeSeconds": 49.204316811268015,
+   "medianCanonicalAnswerOutputSpeed": 36.483749244107,
+   "percentile05OutputTokensPerSecond": 32.5535715368524,
+   "percentile95OutputTokensPerSecond": 37.145015457868,
+   "quartile25OutputTokensPerSecond": 34.3892367614162,
+   "quartile75OutputTokensPerSecond": 35.8467153202797,
+   "percentile05TimeToFirstTokenSeconds": 0.96645418490001,
+   "percentile95TimeToFirstTokenSeconds": 1.74157756589999,
+   "quartile25TimeToFirstTokenSeconds": 1.01511800950004,
+   "quartile75TimeToFirstTokenSeconds": 1.2468669255,
    "contextWindowTokens": 256000,
    "totalParameters": 30.7,
    "sizeClass": "small",
@@ -357,8 +324,7 @@
      }
     ]
    },
-   "intelligenceIndexTimePerTask": 342.85656760350366,
-   "trainingTokensTrillions": null,
+   "intelligenceIndexTimePerTask": 342.9802768585998,
    "intelligenceIndexTokenCounts": {
     "inputTokens": 894212004,
     "answerTokens": 9618907,
@@ -500,7 +466,6 @@
      "hallucinationRate": 0.9081481481481481
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 3,
@@ -545,7 +510,6 @@
    "omniscience": -4.01666666666667,
    "omniscienceAccuracy": 0.08883333333333333,
    "omniscienceNonHallucination": 0.8584232668739711,
-   "cweBench": null,
    "mlcrOverall": 0.00555555555555556,
    "ifbench": 0.739455782312925,
    "hle": 0.119555143651529,
@@ -572,14 +536,14 @@
    "medianEndToEndResponseTimeSeconds": 11.109645951598514,
    "medianReasoningTimeSeconds": 8.586871706078822,
    "medianCanonicalAnswerOutputSpeed": 231.25189355506,
-   "percentile05OutputTokensPerSecond": 185.367262516996,
-   "percentile95OutputTokensPerSecond": 302.978212231467,
-   "quartile25OutputTokensPerSecond": 206.230954785566,
-   "quartile75OutputTokensPerSecond": 270.221383427378,
-   "percentile05TimeToFirstTokenSeconds": 0.320427705700029,
-   "percentile95TimeToFirstTokenSeconds": 0.510378985900042,
-   "quartile25TimeToFirstTokenSeconds": 0.354002844999997,
-   "quartile75TimeToFirstTokenSeconds": 0.412045098499959,
+   "percentile05OutputTokensPerSecond": 128.143253323297,
+   "percentile95OutputTokensPerSecond": 290.209673910258,
+   "quartile25OutputTokensPerSecond": 199.242392351512,
+   "quartile75OutputTokensPerSecond": 265.620526251073,
+   "percentile05TimeToFirstTokenSeconds": 0.335043236600325,
+   "percentile95TimeToFirstTokenSeconds": 0.940815955900035,
+   "quartile25TimeToFirstTokenSeconds": 0.349694150999987,
+   "quartile75TimeToFirstTokenSeconds": 0.427182624500005,
    "contextWindowTokens": 192000,
    "totalParameters": 218,
    "sizeClass": "large",
@@ -659,7 +623,6 @@
     ]
    },
    "intelligenceIndexTimePerTask": 96.48154912807145,
-   "trainingTokensTrillions": null,
    "intelligenceIndexTokenCounts": {
     "inputTokens": 868082457,
     "answerTokens": 11560104,
@@ -801,7 +764,6 @@
      "hallucinationRate": 0.27832512315270935
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 3,
@@ -846,8 +808,6 @@
    "omniscience": -59.3666666666667,
    "omniscienceAccuracy": 0.16966666666666666,
    "omniscienceNonHallucination": 0.0806904857486953,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": 0.691156462585034,
    "hle": 0.107970342910102,
    "gpqa": 0.733333333333333,
@@ -867,20 +827,7 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": null,
-   "medianTimeToFirstTokenSeconds": null,
-   "medianTimeToFirstAnswerTokenSeconds": null,
-   "medianEndToEndResponseTimeSeconds": null,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": null,
-   "percentile05OutputTokensPerSecond": null,
-   "percentile95OutputTokensPerSecond": null,
-   "quartile25OutputTokensPerSecond": null,
-   "quartile75OutputTokensPerSecond": null,
-   "percentile05TimeToFirstTokenSeconds": null,
-   "percentile95TimeToFirstTokenSeconds": null,
-   "quartile25TimeToFirstTokenSeconds": null,
-   "quartile75TimeToFirstTokenSeconds": null,
    "contextWindowTokens": 128000,
    "totalParameters": 15,
    "sizeClass": "small",
@@ -900,16 +847,6 @@
    "licenseUrl": "https://opensource.org/license/mit/",
    "huggingfaceUrl": "https://huggingface.co/ServiceNow-AI/Apriel-1.6-15b-Thinker",
    "openrouterApiId": null,
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
-   "trainingTokensTrillions": null,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 667111,
@@ -917,7 +854,6 @@
      "reasoningTokens": 22920809,
      "outputTokens": 23310059
     },
-    "lcr": null,
     "gpqa": {
      "inputTokens": 49132,
      "answerTokens": 8756,
@@ -930,22 +866,18 @@
      "reasoningTokens": 1750596,
      "outputTokens": 2043333
     },
-    "tauBanking": null,
     "critpt": {
      "inputTokens": 218071,
      "answerTokens": 112702,
      "reasoningTokens": 1101144,
      "outputTokens": 1213846
     },
-    "gdpval": null,
     "ifbench": {
      "inputTokens": 24589,
      "answerTokens": 66869,
      "reasoningTokens": 1568231,
      "outputTokens": 1635100
     },
-    "scicode": null,
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 716990,
      "answerTokens": 22307,
@@ -957,11 +889,8 @@
      "answerTokens": 202225,
      "reasoningTokens": 2266429,
      "outputTokens": 2468654
-    },
-    "terminalbenchV21": null,
-    "terminalbenchV40": null
+    }
    },
-   "gdpvalBreakdown": null,
    "omniscienceBreakdown": {
     "total": {
      "accuracy": 0.16966666666666666,
@@ -999,7 +928,6 @@
      "hallucinationRate": 0.9495912806539509
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 3,
@@ -1044,8 +972,6 @@
    "omniscience": -48.5833333333333,
    "omniscienceAccuracy": 0.189,
    "omniscienceNonHallucination": 0.16789971228935474,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": 0.575510204081633,
    "hle": 0.110750695088044,
    "gpqa": 0.756565656565657,
@@ -1065,20 +991,20 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": 57.3233146194667,
-   "medianTimeToFirstTokenSeconds": 0.431783196500078,
-   "medianTimeToFirstAnswerTokenSeconds": 35.321600948260205,
-   "medianEndToEndResponseTimeSeconds": 44.044055386200235,
-   "medianReasoningTimeSeconds": 34.88981775176013,
-   "medianCanonicalAnswerOutputSpeed": 57.4504795032021,
-   "percentile05OutputTokensPerSecond": 28.9492495586464,
+   "medianOutputTokensPerSecond": 43.7988929417457,
+   "medianTimeToFirstTokenSeconds": 0.459816336000017,
+   "medianTimeToFirstAnswerTokenSeconds": 46.12307094519941,
+   "medianEndToEndResponseTimeSeconds": 57.538884597499255,
+   "medianReasoningTimeSeconds": 45.66325460919939,
+   "medianCanonicalAnswerOutputSpeed": 42.6208198191328,
+   "percentile05OutputTokensPerSecond": 22.0593962489623,
    "percentile95OutputTokensPerSecond": 144.457328179733,
-   "quartile25OutputTokensPerSecond": 43.0507723797781,
-   "quartile75OutputTokensPerSecond": 83.0538327258443,
-   "percentile05TimeToFirstTokenSeconds": 0.248450980800045,
-   "percentile95TimeToFirstTokenSeconds": 1.57174977280001,
-   "quartile25TimeToFirstTokenSeconds": 0.310036968499844,
-   "quartile75TimeToFirstTokenSeconds": 0.563681194250052,
+   "quartile25OutputTokensPerSecond": 29.5643000414712,
+   "quartile75OutputTokensPerSecond": 70.3080795047263,
+   "percentile05TimeToFirstTokenSeconds": 0.264093650349843,
+   "percentile95TimeToFirstTokenSeconds": 3.24971456059998,
+   "quartile25TimeToFirstTokenSeconds": 0.370907573750003,
+   "quartile75TimeToFirstTokenSeconds": 0.564451328000061,
    "contextWindowTokens": 256000,
    "totalParameters": 30,
    "sizeClass": "small",
@@ -1098,16 +1024,6 @@
    "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
    "huggingfaceUrl": "https://huggingface.co/CohereLabs/North-Mini-Code-1.0",
    "openrouterApiId": "cohere/north-mini-code:free",
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
-   "trainingTokensTrillions": null,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 688696,
@@ -1163,7 +1079,6 @@
      "reasoningTokens": 3509836,
      "outputTokens": 3622455
     },
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 848247,
      "answerTokens": 92522,
@@ -1233,7 +1148,6 @@
      "hallucinationRate": 0.8368495077355836
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 3,
@@ -1278,8 +1192,6 @@
    "omniscience": -19.35,
    "omniscienceAccuracy": 0.08516666666666667,
    "omniscienceNonHallucination": 0.6953907815631262,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": null,
    "hle": 0.0931417979610751,
    "gpqa": 0.734343434343434,
@@ -1299,20 +1211,20 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": 140.034173054133,
-   "medianTimeToFirstTokenSeconds": 2.19232594850005,
-   "medianTimeToFirstAnswerTokenSeconds": 16.474554038830973,
-   "medianEndToEndResponseTimeSeconds": 20.045111061413703,
-   "medianReasoningTimeSeconds": 14.282228090330925,
-   "medianCanonicalAnswerOutputSpeed": 155.806152826135,
-   "percentile05OutputTokensPerSecond": 50.634916606947,
-   "percentile95OutputTokensPerSecond": 173.342761632355,
-   "quartile25OutputTokensPerSecond": 109.396775313825,
-   "quartile75OutputTokensPerSecond": 157.892165910414,
-   "percentile05TimeToFirstTokenSeconds": 1.74905821404999,
-   "percentile95TimeToFirstTokenSeconds": 3.92286054335002,
-   "quartile25TimeToFirstTokenSeconds": 1.870364963,
-   "quartile75TimeToFirstTokenSeconds": 3.10104223475013,
+   "medianOutputTokensPerSecond": 155.871453268644,
+   "medianTimeToFirstTokenSeconds": 2.32730208749996,
+   "medianTimeToFirstAnswerTokenSeconds": 15.158387947416887,
+   "medianEndToEndResponseTimeSeconds": 18.36615941239612,
+   "medianReasoningTimeSeconds": 12.831085859916927,
+   "medianCanonicalAnswerOutputSpeed": 203.54044652685,
+   "percentile05OutputTokensPerSecond": 79.4727351926361,
+   "percentile95OutputTokensPerSecond": 219.159406179679,
+   "quartile25OutputTokensPerSecond": 142.552007246965,
+   "quartile75OutputTokensPerSecond": 162.815956713039,
+   "percentile05TimeToFirstTokenSeconds": 1.78417084155008,
+   "percentile95TimeToFirstTokenSeconds": 4.05334509229998,
+   "quartile25TimeToFirstTokenSeconds": 2.15204686875001,
+   "quartile75TimeToFirstTokenSeconds": 3.41552503375,
    "contextWindowTokens": 262144,
    "totalParameters": 7.9,
    "sizeClass": "small",
@@ -1391,8 +1303,7 @@
      }
     ]
    },
-   "intelligenceIndexTimePerTask": 451.1212262342978,
-   "trainingTokensTrillions": null,
+   "intelligenceIndexTimePerTask": 345.3243024525962,
    "intelligenceIndexTokenCounts": {
     "inputTokens": 2607178931,
     "answerTokens": 41770799,
@@ -1423,7 +1334,6 @@
      "reasoningTokens": 6889899,
      "outputTokens": 7189870
     },
-    "tau2": null,
     "tauBanking": {
      "inputTokens": 155501046,
      "answerTokens": 367624,
@@ -1442,21 +1352,18 @@
      "reasoningTokens": 5114005,
      "outputTokens": 18593830
     },
-    "ifbench": null,
     "scicode": {
      "inputTokens": 689105,
      "answerTokens": 452181,
      "reasoningTokens": 9376498,
      "outputTokens": 9828679
     },
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 837323,
      "answerTokens": 1778609,
      "reasoningTokens": 22165617,
      "outputTokens": 23944226
     },
-    "terminalbenchHard": null,
     "terminalbenchV21": {
      "inputTokens": 699163044,
      "answerTokens": 2857392,
@@ -1514,7 +1421,6 @@
      "hallucinationRate": 0.43546441495778043
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 3,
@@ -1559,8 +1465,6 @@
    "omniscience": -4.36666666666667,
    "omniscienceAccuracy": 0.06533333333333333,
    "omniscienceNonHallucination": 0.8833808844507846,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": null,
    "hle": 0.0449490268767377,
    "gpqa": 0.438383838383838,
@@ -1580,20 +1484,7 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": null,
-   "medianTimeToFirstTokenSeconds": null,
-   "medianTimeToFirstAnswerTokenSeconds": null,
-   "medianEndToEndResponseTimeSeconds": null,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": null,
-   "percentile05OutputTokensPerSecond": null,
-   "percentile95OutputTokensPerSecond": null,
-   "quartile25OutputTokensPerSecond": null,
-   "quartile75OutputTokensPerSecond": null,
-   "percentile05TimeToFirstTokenSeconds": null,
-   "percentile95TimeToFirstTokenSeconds": null,
-   "quartile25TimeToFirstTokenSeconds": null,
-   "quartile75TimeToFirstTokenSeconds": null,
    "contextWindowTokens": 131072,
    "totalParameters": 3,
    "sizeClass": "tiny",
@@ -1613,16 +1504,6 @@
    "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
    "huggingfaceUrl": "https://huggingface.co/ai9stars/G9v3-3B",
    "openrouterApiId": null,
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
-   "trainingTokensTrillions": null,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 668205,
@@ -1642,8 +1523,6 @@
      "reasoningTokens": 5112521,
      "outputTokens": 5132859
     },
-    "tau2": null,
-    "tauBanking": null,
     "critpt": {
      "inputTokens": 1132830,
      "answerTokens": 34243,
@@ -1656,23 +1535,18 @@
      "reasoningTokens": 3596382,
      "outputTokens": 6163621
     },
-    "ifbench": null,
-    "scicode": null,
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 755476,
      "answerTokens": 88649,
      "reasoningTokens": 15867407,
      "outputTokens": 15956056
     },
-    "terminalbenchHard": null,
     "terminalbenchV21": {
      "inputTokens": 83469504,
      "answerTokens": 689017,
      "reasoningTokens": 656557,
      "outputTokens": 1345574
-    },
-    "terminalbenchV40": null
+    }
    },
    "gdpvalBreakdown": {
     "elo": 807.38,
@@ -1718,7 +1592,6 @@
      "hallucinationRate": 0.136568848758465
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 3,
@@ -1763,8 +1636,6 @@
    "omniscience": -46.7,
    "omniscienceAccuracy": 0.20816666666666667,
    "omniscienceNonHallucination": 0.1473374026520733,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": 0.380952380952381,
    "hle": 0.0356811862835959,
    "gpqa": 0.593939393939394,
@@ -1784,20 +1655,20 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": 142.369638298088,
-   "medianTimeToFirstTokenSeconds": 2.24195932499997,
-   "medianTimeToFirstAnswerTokenSeconds": 2.24195932499997,
-   "medianEndToEndResponseTimeSeconds": 5.753944085073037,
+   "medianOutputTokensPerSecond": 137.727117779993,
+   "medianTimeToFirstTokenSeconds": 2.30178355800001,
+   "medianTimeToFirstAnswerTokenSeconds": 2.30178355800001,
+   "medianEndToEndResponseTimeSeconds": 5.9321506785746685,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": 147.889274655714,
-   "percentile05OutputTokensPerSecond": 90.5056539322822,
-   "percentile95OutputTokensPerSecond": 195.654503743615,
-   "quartile25OutputTokensPerSecond": 115.533005588867,
-   "quartile75OutputTokensPerSecond": 150.860796213978,
-   "percentile05TimeToFirstTokenSeconds": 2.09302621779999,
-   "percentile95TimeToFirstTokenSeconds": 2.93542202999999,
-   "quartile25TimeToFirstTokenSeconds": 2.17805673900003,
-   "quartile75TimeToFirstTokenSeconds": 2.42700840125004,
+   "medianCanonicalAnswerOutputSpeed": 146.669558955993,
+   "percentile05OutputTokensPerSecond": 88.6546514841806,
+   "percentile95OutputTokensPerSecond": 167.208645316674,
+   "quartile25OutputTokensPerSecond": 117.762297271636,
+   "quartile75OutputTokensPerSecond": 149.806337976222,
+   "percentile05TimeToFirstTokenSeconds": 2.13490236399998,
+   "percentile95TimeToFirstTokenSeconds": 4.07474382439998,
+   "quartile25TimeToFirstTokenSeconds": 2.20451870399984,
+   "quartile75TimeToFirstTokenSeconds": 2.53368936849995,
    "contextWindowTokens": 256000,
    "totalParameters": 125,
    "sizeClass": "medium",
@@ -1876,8 +1747,7 @@
      }
     ]
    },
-   "intelligenceIndexTimePerTask": 84.82216392977766,
-   "trainingTokensTrillions": null,
+   "intelligenceIndexTimePerTask": 85.52755178098475,
    "intelligenceIndexTokenCounts": {
     "inputTokens": 926814213,
     "answerTokens": 17659621,
@@ -1944,7 +1814,6 @@
      "reasoningTokens": 0,
      "outputTokens": 138372
     },
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 716990,
      "answerTokens": 48125,
@@ -2077,8 +1946,6 @@
    "omniscience": -10.95,
    "omniscienceAccuracy": 0.0435,
    "omniscienceNonHallucination": 0.840041819132253,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": null,
    "hle": 0.06209453197405,
    "gpqa": 0.557575757575758,
@@ -2098,20 +1965,20 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": 200.33019548232,
-   "medianTimeToFirstTokenSeconds": 3.54694960300003,
-   "medianTimeToFirstAnswerTokenSeconds": 13.530467041221213,
-   "medianEndToEndResponseTimeSeconds": 16.026346400776507,
-   "medianReasoningTimeSeconds": 9.983517438221183,
-   "medianCanonicalAnswerOutputSpeed": 203.121441185163,
-   "percentile05OutputTokensPerSecond": 182.40100107057,
-   "percentile95OutputTokensPerSecond": 205.265038568557,
-   "quartile25OutputTokensPerSecond": 196.439502073603,
-   "quartile75OutputTokensPerSecond": 203.465104246886,
-   "percentile05TimeToFirstTokenSeconds": 1.19171554020005,
-   "percentile95TimeToFirstTokenSeconds": 4.01640278364998,
-   "quartile25TimeToFirstTokenSeconds": 1.63542408225,
-   "quartile75TimeToFirstTokenSeconds": 3.7317252095001,
+   "medianOutputTokensPerSecond": 199.447698475638,
+   "medianTimeToFirstTokenSeconds": 3.54909143500004,
+   "medianTimeToFirstAnswerTokenSeconds": 13.576782981635233,
+   "medianEndToEndResponseTimeSeconds": 16.083705868294032,
+   "medianReasoningTimeSeconds": 10.027691546635193,
+   "medianCanonicalAnswerOutputSpeed": 202.560197521531,
+   "percentile05OutputTokensPerSecond": 182.2904194548,
+   "percentile95OutputTokensPerSecond": 204.675153127671,
+   "quartile25OutputTokensPerSecond": 193.479377811695,
+   "quartile75OutputTokensPerSecond": 201.289582826447,
+   "percentile05TimeToFirstTokenSeconds": 1.16987903900005,
+   "percentile95TimeToFirstTokenSeconds": 3.95600776910001,
+   "quartile25TimeToFirstTokenSeconds": 1.636876729,
+   "quartile75TimeToFirstTokenSeconds": 3.75117836700008,
    "contextWindowTokens": 128000,
    "totalParameters": 2.7,
    "sizeClass": "tiny",
@@ -2131,16 +1998,6 @@
    "licenseUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-Exp/blob/main/LICENSE",
    "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B",
    "openrouterApiId": null,
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
-   "trainingTokensTrillions": null,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 683645,
@@ -2160,7 +2017,6 @@
      "reasoningTokens": 1608974,
      "outputTokens": 1801032
     },
-    "tau2": null,
     "tauBanking": {
      "inputTokens": 20119111,
      "answerTokens": 189588,
@@ -2179,28 +2035,24 @@
      "reasoningTokens": 4176531,
      "outputTokens": 7380862
     },
-    "ifbench": null,
     "scicode": {
      "inputTokens": 743822,
      "answerTokens": 157736,
      "reasoningTokens": 1540248,
      "outputTokens": 1697984
     },
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 776154,
      "answerTokens": 387598,
      "reasoningTokens": 4154382,
      "outputTokens": 4541980
     },
-    "terminalbenchHard": null,
     "terminalbenchV21": {
      "inputTokens": 201188232,
      "answerTokens": 2109914,
      "reasoningTokens": 2774367,
      "outputTokens": 4884281
-    },
-    "terminalbenchV40": null
+    }
    },
    "gdpvalBreakdown": {
     "elo": 202.35,
@@ -2246,7 +2098,6 @@
      "hallucinationRate": 0.3359908883826879
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 2,
@@ -2291,8 +2142,6 @@
    "omniscience": -57.7,
    "omniscienceAccuracy": 0.158,
    "omniscienceNonHallucination": 0.12707838479809974,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": 0.31156462585034,
    "hle": 0.0347544022242817,
    "gpqa": 0.532323232323232,
@@ -2312,20 +2161,20 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": 140.170768175399,
-   "medianTimeToFirstTokenSeconds": 2.25745299950001,
-   "medianTimeToFirstAnswerTokenSeconds": 2.25745299950001,
-   "medianEndToEndResponseTimeSeconds": 5.8245305471834055,
+   "medianOutputTokensPerSecond": 143.516228529518,
+   "medianTimeToFirstTokenSeconds": 2.26045878999999,
+   "medianTimeToFirstAnswerTokenSeconds": 2.26045878999999,
+   "medianEndToEndResponseTimeSeconds": 5.744385347456602,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": 146.579725834161,
-   "percentile05OutputTokensPerSecond": 91.5820792090952,
-   "percentile95OutputTokensPerSecond": 189.323772466345,
-   "quartile25OutputTokensPerSecond": 126.276176257726,
-   "quartile75OutputTokensPerSecond": 163.923129716982,
-   "percentile05TimeToFirstTokenSeconds": 2.14887217855,
-   "percentile95TimeToFirstTokenSeconds": 3.41509719159991,
-   "quartile25TimeToFirstTokenSeconds": 2.19632174799996,
-   "quartile75TimeToFirstTokenSeconds": 2.37557852575,
+   "medianCanonicalAnswerOutputSpeed": 150.112990821477,
+   "percentile05OutputTokensPerSecond": 89.5687759962404,
+   "percentile95OutputTokensPerSecond": 166.284725974613,
+   "quartile25OutputTokensPerSecond": 121.37970032666,
+   "quartile75OutputTokensPerSecond": 148.869016229395,
+   "percentile05TimeToFirstTokenSeconds": 2.14234332819999,
+   "percentile95TimeToFirstTokenSeconds": 5.47551085760003,
+   "quartile25TimeToFirstTokenSeconds": 2.20143496099999,
+   "quartile75TimeToFirstTokenSeconds": 2.91398628049997,
    "contextWindowTokens": 256000,
    "totalParameters": 24,
    "sizeClass": "small",
@@ -2404,8 +2253,7 @@
      }
     ]
    },
-   "intelligenceIndexTimePerTask": 89.10014065178079,
-   "trainingTokensTrillions": null,
+   "intelligenceIndexTimePerTask": 87.00295768575577,
    "intelligenceIndexTokenCounts": {
     "inputTokens": 940300567,
     "answerTokens": 17895639,
@@ -2610,8 +2458,6 @@
    "omniscience": -33.2,
    "omniscienceAccuracy": 0.09333333333333334,
    "omniscienceNonHallucination": 0.5308823529411765,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": 0.556462585034014,
    "hle": 0.0685820203892493,
    "gpqa": 0.513131313131313,
@@ -2631,20 +2477,7 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": null,
-   "medianTimeToFirstTokenSeconds": null,
-   "medianTimeToFirstAnswerTokenSeconds": null,
-   "medianEndToEndResponseTimeSeconds": null,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": null,
-   "percentile05OutputTokensPerSecond": null,
-   "percentile95OutputTokensPerSecond": null,
-   "quartile25OutputTokensPerSecond": null,
-   "quartile75OutputTokensPerSecond": null,
-   "percentile05TimeToFirstTokenSeconds": null,
-   "percentile95TimeToFirstTokenSeconds": null,
-   "quartile25TimeToFirstTokenSeconds": null,
-   "quartile75TimeToFirstTokenSeconds": null,
    "contextWindowTokens": 32768,
    "totalParameters": 8.3,
    "sizeClass": "small",
@@ -2664,16 +2497,6 @@
    "licenseUrl": "https://huggingface.co/LiquidAI/LFM2-8B-A1B/blob/main/LICENSE",
    "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B",
    "openrouterApiId": null,
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
-   "trainingTokensTrillions": null,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 663151,
@@ -2681,7 +2504,6 @@
      "reasoningTokens": 10820546,
      "outputTokens": 11237270
     },
-    "lcr": null,
     "gpqa": {
      "inputTokens": 53015,
      "answerTokens": 19298,
@@ -2694,22 +2516,18 @@
      "reasoningTokens": 902698,
      "outputTokens": 1250943
     },
-    "tauBanking": null,
     "critpt": {
      "inputTokens": 202618,
      "answerTokens": 68984,
      "reasoningTokens": 523549,
      "outputTokens": 592533
     },
-    "gdpval": null,
     "ifbench": {
      "inputTokens": 34618,
      "answerTokens": 75198,
      "reasoningTokens": 630817,
      "outputTokens": 706015
     },
-    "scicode": null,
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 769230,
      "answerTokens": 158144,
@@ -2721,11 +2539,8 @@
      "answerTokens": 1102218,
      "reasoningTokens": 1017003,
      "outputTokens": 2119221
-    },
-    "terminalbenchV21": null,
-    "terminalbenchV40": null
+    }
    },
-   "gdpvalBreakdown": null,
    "omniscienceBreakdown": {
     "total": {
      "accuracy": 0.09333333333333334,
@@ -2763,7 +2578,6 @@
      "hallucinationRate": 0.5625
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 1,
@@ -2808,8 +2622,6 @@
    "omniscience": -43.3666666666667,
    "omniscienceAccuracy": 0.13783333333333334,
    "omniscienceNonHallucination": 0.3371351246858689,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": 0.659863945578231,
    "hle": 0.0625579240037071,
    "gpqa": 0.590909090909091,
@@ -2829,20 +2641,7 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": null,
-   "medianTimeToFirstTokenSeconds": null,
-   "medianTimeToFirstAnswerTokenSeconds": null,
-   "medianEndToEndResponseTimeSeconds": null,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": null,
-   "percentile05OutputTokensPerSecond": null,
-   "percentile95OutputTokensPerSecond": null,
-   "quartile25OutputTokensPerSecond": null,
-   "quartile75OutputTokensPerSecond": null,
-   "percentile05TimeToFirstTokenSeconds": null,
-   "percentile95TimeToFirstTokenSeconds": null,
-   "quartile25TimeToFirstTokenSeconds": null,
-   "quartile75TimeToFirstTokenSeconds": null,
    "contextWindowTokens": 65500,
    "totalParameters": 32.2,
    "sizeClass": "small",
@@ -2862,16 +2661,7 @@
    "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
    "huggingfaceUrl": "https://huggingface.co/allenai/Olmo-3.1-32B-Think",
    "openrouterApiId": "allenai/olmo-3.1-32b-think",
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
    "trainingTokensTrillions": 5.5,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 666927,
@@ -2879,30 +2669,24 @@
      "reasoningTokens": 27066139,
      "outputTokens": 27432822
     },
-    "lcr": null,
     "gpqa": {
      "inputTokens": 49132,
      "answerTokens": 29898,
      "reasoningTokens": 2024261,
      "outputTokens": 2054159
     },
-    "tau2": null,
-    "tauBanking": null,
     "critpt": {
      "inputTokens": 210549,
      "answerTokens": 89274,
      "reasoningTokens": 1671476,
      "outputTokens": 1760750
     },
-    "gdpval": null,
     "ifbench": {
      "inputTokens": 24589,
      "answerTokens": 52049,
      "reasoningTokens": 1698180,
      "outputTokens": 1750229
     },
-    "scicode": null,
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 716867,
      "answerTokens": 56061,
@@ -2914,11 +2698,8 @@
      "answerTokens": 39032,
      "reasoningTokens": 723644,
      "outputTokens": 762676
-    },
-    "terminalbenchV21": null,
-    "terminalbenchV40": null
+    }
    },
-   "gdpvalBreakdown": null,
    "omniscienceBreakdown": {
     "total": {
      "accuracy": 0.13783333333333334,
@@ -3019,8 +2800,6 @@
    "omniscience": -61.0833333333333,
    "omniscienceAccuracy": 0.095,
    "omniscienceNonHallucination": 0.2200736648250461,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": 0.210884353741497,
    "hle": 0.0445,
    "gpqa": 0.331313131313131,
@@ -3040,20 +2819,20 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": 44.9550932415029,
-   "medianTimeToFirstTokenSeconds": 0.840528276000044,
-   "medianTimeToFirstAnswerTokenSeconds": 0.840528276000044,
-   "medianEndToEndResponseTimeSeconds": 11.962738551795802,
+   "medianOutputTokensPerSecond": 44.9234969922453,
+   "medianTimeToFirstTokenSeconds": 0.842576011000006,
+   "medianTimeToFirstAnswerTokenSeconds": 0.842576011000006,
+   "medianEndToEndResponseTimeSeconds": 11.97260892197998,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": 45.8248767382087,
-   "percentile05OutputTokensPerSecond": 41.4079456662311,
-   "percentile95OutputTokensPerSecond": 46.7964388343876,
+   "medianCanonicalAnswerOutputSpeed": 45.9809775976301,
+   "percentile05OutputTokensPerSecond": 41.6895337630176,
+   "percentile95OutputTokensPerSecond": 47.1655560661132,
    "quartile25OutputTokensPerSecond": 43.5069635981301,
    "quartile75OutputTokensPerSecond": 46.0448094709906,
-   "percentile05TimeToFirstTokenSeconds": 0.80611959785,
-   "percentile95TimeToFirstTokenSeconds": 0.955758587249999,
-   "quartile25TimeToFirstTokenSeconds": 0.821529152500006,
-   "quartile75TimeToFirstTokenSeconds": 0.859243702249984,
+   "percentile05TimeToFirstTokenSeconds": 0.80164218299999,
+   "percentile95TimeToFirstTokenSeconds": 0.950923274449946,
+   "quartile25TimeToFirstTokenSeconds": 0.816539406249934,
+   "quartile75TimeToFirstTokenSeconds": 0.881076747500011,
    "contextWindowTokens": 128000,
    "totalParameters": 3.84,
    "sizeClass": "tiny",
@@ -3073,16 +2852,7 @@
    "licenseUrl": "https://opensource.org/license/mit",
    "huggingfaceUrl": "https://huggingface.co/microsoft/Phi-4-mini-instruct",
    "openrouterApiId": null,
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
    "trainingTokensTrillions": 5,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 678676,
@@ -3108,7 +2878,6 @@
      "reasoningTokens": 0,
      "outputTokens": 5254361
     },
-    "tauBanking": null,
     "critpt": {
      "inputTokens": 274535,
      "answerTokens": 300558,
@@ -3127,8 +2896,6 @@
      "reasoningTokens": 0,
      "outputTokens": 195904
     },
-    "scicode": null,
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 716990,
      "answerTokens": 1290854,
@@ -3146,8 +2913,7 @@
      "answerTokens": 6746191,
      "reasoningTokens": 0,
      "outputTokens": 6746191
-    },
-    "terminalbenchV40": null
+    }
    },
    "gdpvalBreakdown": {
     "elo": -171.32,
@@ -3193,7 +2959,6 @@
      "hallucinationRate": 0.8171557562076749
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 3,
@@ -3236,10 +3001,6 @@
    "scicode": null,
    "lcr": null,
    "omniscience": null,
-   "omniscienceAccuracy": null,
-   "omniscienceNonHallucination": null,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": null,
    "hle": 0.05,
    "gpqa": 0.315151515151515,
@@ -3259,20 +3020,20 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": 17.3204405058975,
-   "medianTimeToFirstTokenSeconds": 0.823760561500024,
-   "medianTimeToFirstAnswerTokenSeconds": 0.823760561500024,
-   "medianEndToEndResponseTimeSeconds": 29.69138663773943,
+   "medianOutputTokensPerSecond": 17.1954586055604,
+   "medianTimeToFirstTokenSeconds": 0.832196533999991,
+   "medianTimeToFirstAnswerTokenSeconds": 0.832196533999991,
+   "medianEndToEndResponseTimeSeconds": 29.90964142624135,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": 17.3568145525452,
-   "percentile05OutputTokensPerSecond": 16.975385121425,
-   "percentile95OutputTokensPerSecond": 17.6433338482354,
-   "quartile25OutputTokensPerSecond": 17.1124887813561,
-   "quartile75OutputTokensPerSecond": 17.4533348182712,
-   "percentile05TimeToFirstTokenSeconds": 0.797652437599894,
-   "percentile95TimeToFirstTokenSeconds": 0.924712480900001,
-   "quartile25TimeToFirstTokenSeconds": 0.808146210749996,
-   "quartile75TimeToFirstTokenSeconds": 0.832663417250046,
+   "medianCanonicalAnswerOutputSpeed": 17.2378119518795,
+   "percentile05OutputTokensPerSecond": 16.2562203075048,
+   "percentile95OutputTokensPerSecond": 17.6401407129971,
+   "quartile25OutputTokensPerSecond": 17.0163065797134,
+   "quartile75OutputTokensPerSecond": 17.4180380497932,
+   "percentile05TimeToFirstTokenSeconds": 0.798437505999885,
+   "percentile95TimeToFirstTokenSeconds": 0.945541149999997,
+   "quartile25TimeToFirstTokenSeconds": 0.813972760500008,
+   "quartile75TimeToFirstTokenSeconds": 0.882775668000022,
    "contextWindowTokens": 128000,
    "totalParameters": 5.6,
    "sizeClass": "small",
@@ -3292,16 +3053,6 @@
    "licenseUrl": "https://opensource.org/license/mit",
    "huggingfaceUrl": "https://huggingface.co/microsoft/Phi-4-multimodal-instruct",
    "openrouterApiId": null,
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
-   "trainingTokensTrillions": null,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 677964,
@@ -3309,33 +3060,19 @@
      "reasoningTokens": 0,
      "outputTokens": 1190045
     },
-    "lcr": null,
     "gpqa": {
      "inputTokens": 52438,
      "answerTokens": 86599,
      "reasoningTokens": 0,
      "outputTokens": 86599
     },
-    "tau2": null,
-    "tauBanking": null,
-    "critpt": null,
-    "gdpval": null,
-    "ifbench": null,
-    "scicode": null,
     "mmmuPro": {
      "inputTokens": 327227,
      "answerTokens": 2349567,
      "reasoningTokens": 0,
      "outputTokens": 2349567
-    },
-    "omniscience": null,
-    "terminalbenchHard": null,
-    "terminalbenchV21": null,
-    "terminalbenchV40": null
+    }
    },
-   "gdpvalBreakdown": null,
-   "omniscienceBreakdown": null,
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 3,
@@ -3380,8 +3117,6 @@
    "omniscience": -84.4166666666667,
    "omniscienceAccuracy": 0.057833333333333334,
    "omniscienceNonHallucination": 0.042632230673978366,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": 0.331292517006803,
    "hle": 0.0509731232622799,
    "gpqa": 0.288888888888889,
@@ -3401,20 +3136,7 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": null,
-   "medianTimeToFirstTokenSeconds": null,
-   "medianTimeToFirstAnswerTokenSeconds": null,
-   "medianEndToEndResponseTimeSeconds": null,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": null,
-   "percentile05OutputTokensPerSecond": null,
-   "percentile95OutputTokensPerSecond": null,
-   "quartile25OutputTokensPerSecond": null,
-   "quartile75OutputTokensPerSecond": null,
-   "percentile05TimeToFirstTokenSeconds": null,
-   "percentile95TimeToFirstTokenSeconds": null,
-   "quartile25TimeToFirstTokenSeconds": null,
-   "quartile75TimeToFirstTokenSeconds": null,
    "contextWindowTokens": 32000,
    "totalParameters": 1.6,
    "sizeClass": "tiny",
@@ -3434,16 +3156,7 @@
    "licenseUrl": "https://huggingface.co/LiquidAI/LFM2-8B-A1B/blob/main/LICENSE",
    "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B",
    "openrouterApiId": null,
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
    "trainingTokensTrillions": 28,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 695600,
@@ -3451,7 +3164,6 @@
      "reasoningTokens": 0,
      "outputTokens": 2462512
     },
-    "lcr": null,
     "gpqa": {
      "inputTokens": 49132,
      "answerTokens": 193856,
@@ -3464,21 +3176,18 @@
      "reasoningTokens": 0,
      "outputTokens": 498177
     },
-    "tauBanking": null,
     "critpt": {
      "inputTokens": 212309,
      "answerTokens": 129304,
      "reasoningTokens": 0,
      "outputTokens": 129304
     },
-    "gdpval": null,
     "ifbench": {
      "inputTokens": 24589,
      "answerTokens": 322085,
      "reasoningTokens": 0,
      "outputTokens": 322085
     },
-    "scicode": null,
     "mmmuPro": {
      "inputTokens": 1278482,
      "answerTokens": 130335,
@@ -3496,11 +3205,8 @@
      "answerTokens": 187566,
      "reasoningTokens": 0,
      "outputTokens": 187566
-    },
-    "terminalbenchV21": null,
-    "terminalbenchV40": null
+    }
    },
-   "gdpvalBreakdown": null,
    "omniscienceBreakdown": {
     "total": {
      "accuracy": 0.057833333333333334,
@@ -3538,7 +3244,6 @@
      "hallucinationRate": 0.9528907922912205
     }
    },
-   "multilingualBreakdown": null,
    "opennessBreakdown": {
     "weightsAccess": 3,
     "weightsLicense": 1,
@@ -3583,8 +3288,6 @@
    "omniscience": -84.3,
    "omniscienceAccuracy": 0.06066666666666667,
    "omniscienceNonHallucination": 0.03797019162526616,
-   "cweBench": null,
-   "mlcrOverall": null,
    "ifbench": 0.201360544217687,
    "hle": 0.0523632993512512,
    "gpqa": 0.305050505050505,
@@ -3604,20 +3307,7 @@
    "cacheHitPrice": null,
    "cacheWritePrice": null,
    "cacheHitDiscountPercent": null,
-   "medianOutputTokensPerSecond": null,
-   "medianTimeToFirstTokenSeconds": null,
-   "medianTimeToFirstAnswerTokenSeconds": null,
-   "medianEndToEndResponseTimeSeconds": null,
    "medianReasoningTimeSeconds": null,
-   "medianCanonicalAnswerOutputSpeed": null,
-   "percentile05OutputTokensPerSecond": null,
-   "percentile95OutputTokensPerSecond": null,
-   "quartile25OutputTokensPerSecond": null,
-   "quartile75OutputTokensPerSecond": null,
-   "percentile05TimeToFirstTokenSeconds": null,
-   "percentile95TimeToFirstTokenSeconds": null,
-   "quartile25TimeToFirstTokenSeconds": null,
-   "quartile75TimeToFirstTokenSeconds": null,
    "contextWindowTokens": 8192,
    "totalParameters": 3.35,
    "sizeClass": "tiny",
@@ -3637,16 +3327,7 @@
    "licenseUrl": "https://spdx.org/licenses/CC-BY-NC-4.0",
    "huggingfaceUrl": "https://huggingface.co/CohereLabs/tiny-aya-global",
    "openrouterApiId": null,
-   "intelligenceIndexCostTotal": null,
-   "intelligenceIndexCostInput": null,
-   "intelligenceIndexCostOutput": null,
-   "intelligenceIndexCostReasoning": null,
-   "intelligenceIndexCostAnswer": null,
-   "intelligenceIndexCostPerTask": null,
-   "intelligenceIndexTimePerTask": null,
    "trainingTokensTrillions": 6,
-   "intelligenceIndexTokenCounts": null,
-   "intelligenceIndexOutputTokensPerTask": null,
    "evalTokenCounts": {
     "hle": {
      "inputTokens": 603231,
@@ -3654,30 +3335,24 @@
      "reasoningTokens": 0,
      "outputTokens": 1396836
     },
-    "lcr": null,
     "gpqa": {
      "inputTokens": 48356,
      "answerTokens": 122841,
      "reasoningTokens": 0,
      "outputTokens": 122841
     },
-    "tau2": null,
-    "tauBanking": null,
     "critpt": {
      "inputTokens": 109648,
      "answerTokens": 169262,
      "reasoningTokens": 0,
      "outputTokens": 169262
     },
-    "gdpval": null,
     "ifbench": {
      "inputTokens": 24589,
      "answerTokens": 160026,
      "reasoningTokens": 0,
      "outputTokens": 160026
     },
-    "scicode": null,
-    "mmmuPro": null,
     "omniscience": {
      "inputTokens": 708934,
      "answerTokens": 209255,
@@ -3689,11 +3364,8 @@
      "answerTokens": 803401,
      "reasoningTokens": 0,
      "outputTokens": 803401
-    },
-    "terminalbenchV21": null,
-    "terminalbenchV40": null
+    }
    },
-   "gdpvalBreakdown": null,
    "omniscienceBreakdown": {
     "total": {
      "accuracy": 0.06066666666666667,

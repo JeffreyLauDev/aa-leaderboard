@@ -1,17 +1,17 @@
 Model,Creator,Intelligence Index,Blended Price USD/1M,Input USD/1M,Output USD/1M,Median Tokens/s,Context Window,OpenRouter ID,Open Weights,License
 G9v3-39A5B,AI9Stars,21.8,0,0,0,,131072,,True,Apache 2.0
-Gemma 4 31B (Reasoning),Google,15.4,0,0,0,35.5,256000,google/gemma-4-31b-it,True,Apache 2.0
+Gemma 4 31B (Reasoning),Google,15.4,0,0,0,35.3,256000,google/gemma-4-31b-it,True,Apache 2.0
 Command A+,Cohere,13.9,0,0,0,232.9,192000,,True,Apache 2.0
 Apriel-v1.6-15B-Thinker,ServiceNow,13.4,0,0,0,,128000,,True,MIT
-North Mini Code,Cohere,12.8,0,0,0,57.3,256000,cohere/north-mini-code:free,True,Apache 2.0
-Ling 3.0 Tiny,InclusionAI,11.9,0,0,0,140.0,262144,,True,Mit
+North Mini Code,Cohere,12.8,0,0,0,43.8,256000,cohere/north-mini-code:free,True,Apache 2.0
+Ling 3.0 Tiny,InclusionAI,11.9,0,0,0,155.9,262144,,True,Mit
 G9v3-3B,AI9Stars,10.8,0,0,0,,131072,,True,Apache 2.0
-Devstral 2,Mistral,9.4,0,0,0,142.4,256000,mistralai/devstral-2512,True,Modified MIT License
-LFM2.5-2.6B,Liquid AI,8.4,0,0,0,200.3,128000,,True,lfm 1.0
-Devstral Small 2,Mistral,8.4,0,0,0,140.2,256000,,True,Apache 2.0
+Devstral 2,Mistral,9.4,0,0,0,137.7,256000,mistralai/devstral-2512,True,Modified MIT License
+LFM2.5-2.6B,Liquid AI,8.4,0,0,0,199.4,128000,,True,lfm 1.0
+Devstral Small 2,Mistral,8.4,0,0,0,143.5,256000,,True,Apache 2.0
 LFM2.5-8B-A1B,Liquid AI,7.2,0,0,0,,32768,,True,lfm 1.0
 Olmo 3.1 32B Think,Allen Institute for AI,7.1,0,0,0,,65500,allenai/olmo-3.1-32b-think,True,Apache 2.0
-Phi-4 Mini Instruct,Microsoft,6.3,0,0,0,45.0,128000,,True,MIT
-Phi-4 Multimodal Instruct,Microsoft,5.8,0,0,0,17.3,128000,,True,MIT
+Phi-4 Mini Instruct,Microsoft,6.3,0,0,0,44.9,128000,,True,MIT
+Phi-4 Multimodal Instruct,Microsoft,5.8,0,0,0,17.2,128000,,True,MIT
 LFM2.5-VL-1.6B,Liquid AI,4.8,0,0,0,,32000,,True,lfm 1.0
 Tiny Aya Global,Cohere,4.8,0,0,0,,8192,,True,Cc By Nc 4.0
