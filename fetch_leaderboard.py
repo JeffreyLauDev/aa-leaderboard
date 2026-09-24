@@ -60,7 +60,7 @@ def extract_objects_with_field(text: str, field: str) -> list:
     i = 0
     n = len(text)
     while True:
-        i = text.find('{"id"', i)
+        i = text.find('{"slug"', i)
         if i < 0:
             break
         # bracket-match forward from '{'

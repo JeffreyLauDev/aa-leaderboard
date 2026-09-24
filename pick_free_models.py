@@ -38,7 +38,13 @@ def main() -> None:
 
     rows = []
     for m in models:
-        price = m.get("price1mBlended0To3To1")
+        inp = m.get("price1mInputTokens")
+        out = m.get("price1mOutputTokens")
+        if inp is not None and out is not None:
+            price = (3 * inp + out) / 4
+        else:
+            price = inp if inp is not None else out
+        m["price1mBlended0To3To1"] = price
         intel = m.get("intelligenceIndex")
         if price is None or intel is None:
             continue
