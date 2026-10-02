@@ -1,13 +1,13 @@
 # Free Models Leaderboard
 
-Generated 2026-10-01T09:47:20.275795+00:00 from Artificial Analysis. 12 models, ranked by Intelligence Index. Blended price = 0:3:1 input:cache:output mix.
+Generated 2026-10-02T09:24:03.216634+00:00 from Artificial Analysis. 12 models, ranked by Intelligence Index. Blended price = 0:3:1 input:cache:output mix.
 
 | # | Model | Creator | Intelligence | In $/1M | Out $/1M | Tokens/s | Context | OpenRouter ID |
 |---|-------|---------|--------------|---------|----------|----------|---------|---------------|
 | 1 | G9v3-39A5B |  | 21.8 | 0 | 0 |  | 131072 |  |
 | 2 | Gemma 4 31B (Reasoning) |  | 14.7 | 0 | 0 | 36 | 256000 |  |
 | 3 | Apriel-v1.6-15B-Thinker |  | 13.4 | 0 | 0 |  | 128000 |  |
-| 4 | Command A+ |  | 13.1 | 0 | 0 | 208 | 192000 |  |
+| 4 | Command A+ |  | 13.1 | 0 | 0 | 211 | 192000 |  |
 | 5 | Ling 3.0 Tiny |  | 11.1 | 0 | 0 | 57 | 262144 |  |
 | 6 | G9v3-3B |  | 10.8 | 0 | 0 |  | 131072 |  |
 | 7 | North Mini Code |  | 9.9 | 0 | 0 | 70 | 256000 |  |
