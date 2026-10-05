@@ -1,6 +1,6 @@
 # Free Models Leaderboard
 
-Generated 2026-10-04T09:22:38.853829+00:00 from Artificial Analysis. 13 models, ranked by Intelligence Index. Blended price = 0:3:1 input:cache:output mix.
+Generated 2026-10-05T10:01:56.392172+00:00 from Artificial Analysis. 13 models, ranked by Intelligence Index. Blended price = 0:3:1 input:cache:output mix.
 
 | # | Model | Creator | Intelligence | In $/1M | Out $/1M | Tokens/s | Context | OpenRouter ID |
 |---|-------|---------|--------------|---------|----------|----------|---------|---------------|
