@@ -1,6 +1,6 @@
 # Free Models Leaderboard
 
-Generated 2026-10-07T09:51:04.162746+00:00 from Artificial Analysis. 13 models, ranked by Intelligence Index. Blended price = 0:3:1 input:cache:output mix.
+Generated 2026-10-08T10:02:11.223935+00:00 from Artificial Analysis. 13 models, ranked by Intelligence Index. Blended price = 0:3:1 input:cache:output mix.
 
 | # | Model | Creator | Intelligence | In $/1M | Out $/1M | Tokens/s | Context | OpenRouter ID |
 |---|-------|---------|--------------|---------|----------|----------|---------|---------------|
@@ -8,10 +8,10 @@ Generated 2026-10-07T09:51:04.162746+00:00 from Artificial Analysis. 13 models, 
 | 2 | G9v3-39A5B |  | 21.8 | 0 | 0 |  | 131072 |  |
 | 3 | Gemma 4 31B (Reasoning) |  | 14.7 | 0 | 0 | 35 | 256000 |  |
 | 4 | Apriel-v1.6-15B-Thinker |  | 13.4 | 0 | 0 |  | 128000 |  |
-| 5 | Command A+ |  | 13.1 | 0 | 0 | 144 | 192000 |  |
+| 5 | Command A+ |  | 13.1 | 0 | 0 | 159 | 192000 |  |
 | 6 | Ling 3.0 Tiny |  | 11.1 | 0 | 0 | 57 | 262144 |  |
 | 7 | G9v3-3B |  | 10.8 | 0 | 0 |  | 131072 |  |
-| 8 | North Mini Code |  | 9.9 | 0 | 0 | 71 | 256000 |  |
+| 8 | North Mini Code |  | 9.9 | 0 | 0 | 60 | 256000 |  |
 | 9 | LFM2.5-2.6B |  | 8.4 | 0 | 0 |  | 128000 |  |
 | 10 | Olmo 3.1 32B Think |  | 7.1 | 0 | 0 |  | 65500 |  |
 | 11 | Phi-4 Mini Instruct |  | 6.3 | 0 | 0 | 46 | 128000 |  |
