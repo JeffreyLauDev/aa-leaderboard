@@ -1,12 +1,12 @@
 # Free Models Leaderboard
 
-Generated 2026-10-18T07:47:21.752686+00:00 from Artificial Analysis. 6 models, ranked by Intelligence Index. Blended price = 0:3:1 input:cache:output mix.
+Generated 2026-10-19T08:30:34.994339+00:00 from Artificial Analysis. 6 models, ranked by Intelligence Index. Blended price = 0:3:1 input:cache:output mix.
 
 | # | Model | Creator | Intelligence | In $/1M | Out $/1M | Tokens/s | Context | OpenRouter ID |
 |---|-------|---------|--------------|---------|----------|----------|---------|---------------|
-| 1 | K2 Horizon 375B A23B |  | 30.5 | 0 | 0 |  | 524288 |  |
-| 2 | Gemma 4 31B (Reasoning) |  | 14.7 | 0 | 0 | 35 | 256000 |  |
-| 3 | Command A+ |  | 13.1 | 0 | 0 | 174 | 192000 |  |
-| 4 | Ling 3.0 Tiny |  | 11.1 | 0 | 0 | 15 | 262144 |  |
-| 5 | North Mini Code |  | 9.9 | 0 | 0 | 87 | 256000 |  |
+| 1 | K2 Horizon 375B A23B |  | 30.5 | 0 | 0 | 1061 | 524288 |  |
+| 2 | Gemma 4 31B (Reasoning) |  | 14.7 | 0 | 0 | 36 | 256000 |  |
+| 3 | Command A+ |  | 13.1 | 0 | 0 | 158 | 192000 |  |
+| 4 | Ling 3.0 Tiny |  | 11.1 | 0 | 0 | 20 | 262144 |  |
+| 5 | North Mini Code |  | 9.9 | 0 | 0 | 81 | 256000 |  |
 | 6 | Tiny Aya Global |  | 4.8 | 0 | 0 |  | 8192 |  |
