@@ -1,7 +1,3 @@
 Model,Creator,Intelligence Index,Blended Price USD/1M,Input USD/1M,Output USD/1M,Median Tokens/s,Context Window,OpenRouter ID,Open Weights,License
-K2 Horizon 375B A23B,,30.5,0.0000,0,0,929.5,524288,,True,
-Gemma 4 31B (Reasoning),,14.7,0.0000,0,0,35.3,256000,,True,
-Command A+,,13.1,0.0000,0,0,152.3,192000,,True,
-Ling 3.0 Tiny,,11.1,0.0000,0,0,58.1,262144,,True,
-North Mini Code,,9.9,0.0000,0,0,67.5,256000,,True,
-Tiny Aya Global,,4.8,0.0000,0,0,,8192,,True,
+K2 Horizon 375B A23B,,17.8,0.0000,0,0,929.5,524288,,True,
+Command A+,,6.2,0.0000,0,0,152.3,192000,,True,
