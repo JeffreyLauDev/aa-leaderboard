@@ -1,3 +1,4 @@
 Model,Creator,Intelligence Index,Blended Price USD/1M,Input USD/1M,Output USD/1M,Median Tokens/s,Context Window,OpenRouter ID,Open Weights,License
-K2 Horizon 375B A23B,,17.8,0.0000,0,0,154.1,524288,,True,
-Command A+,,6.2,0.0000,0,0,148.2,192000,,True,
+Nanbeige4.3-33B,,20.4,0.0000,0,0,,524288,,True,
+K2 Horizon 375B A23B,,17.8,0.0000,0,0,530.8,524288,,True,
+Command A+,,6.2,0.0000,0,0,145.9,192000,,True,
