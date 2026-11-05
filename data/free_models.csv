@@ -1,3 +1,4 @@
 Model,Creator,Intelligence Index,Blended Price USD/1M,Input USD/1M,Output USD/1M,Median Tokens/s,Context Window,OpenRouter ID,Open Weights,License
 K2 Horizon 375B A23B,,17.8,0.0000,0,0,,524288,,True,
 Command A+,,6.2,0.0000,0,0,,192000,,True,
+Gemma 4 31B (Reasoning),,4.4,0.0000,0,0,,256000,,True,
